@@ -196,6 +196,13 @@ img{
     width: 34px;
     margin-right: 4rem;
 }
+.text {
+    margin-bottom: 1.5em; /* Add space between paragraphs */
+    line-height: 1.8; /* Adjust line spacing for readability */
+    font-size: 1rem; /* Standard font size for paragraphs */
+    color: #333; /* Ensure good contrast for text */
+}
+
 
 /* features */
 .features-content{
@@ -251,21 +258,21 @@ img{
 }
 
 .image-container1 {
-    text-align: center;
-    margin: 20px 0;
-    width: 500px;
-    justify-content: center;
-    max-height: auto;
-    border-radius: 8px;
-    margin-left: 160px;
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Horizontal alignment */
+    align-items: center; /* Vertical alignment */
+    margin: 20px auto; /* Center the container horizontally */
+    width: 500px; /* Set a fixed width for the container */
+    height: auto; /* Let the height adjust automatically */
+    border-radius: 8px; /* Rounded corners */
 }
 
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    
+.image-container1 img {
+    max-width: 100%; /* Ensure the image scales within the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Apply rounded corners to the image */
 }
+
 
 /* Cards */
 .card {
